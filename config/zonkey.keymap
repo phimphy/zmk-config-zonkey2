@@ -135,7 +135,7 @@
         lock_sleep: lock_sleep {
             compatible = "zmk,behavior-mod-morph";
             label = "LOCK_SLEEP";
-            bindings = <&kp K_LOCK>, <&kp K_SLEEP>;
+            bindings = <&kp LG(LC(Q))>, <&kp LA(LC(INS))>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
