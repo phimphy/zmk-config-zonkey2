@@ -167,10 +167,10 @@
 
         layer_1 {
             bindings = <
-&kp N1  &kp N2  &kp N3  &kp N4       &kp N5                               &kp N6     &kp N7        &kp N8     &kp N9    &kp N0
-&trans  &trans  &trans  &trans       &trans   &trans              &trans  &kp EQUAL  &parenthesis  &brace     &bracket  &less_greater
-&trans  &trans  &trans  &trans       &trans   &trans              &trans  &kp BSLH   &pgup_dn      &home_end  &trans    &trans
-&trans  &trans  &trans  &lt 4 LANG2  &kp TAB  &lt 3 LANGUAGE_1            &trans     &trans                                            &trans
+&kp N1  &kp N2  &kp N3  &kp N4       &kp N5                              &kp N6     &kp N7        &kp N8     &kp N9    &kp N0
+&trans  &trans  &trans  &trans       &trans  &trans              &trans  &kp EQUAL  &parenthesis  &brace     &bracket  &less_greater
+&trans  &trans  &trans  &trans       &trans  &trans              &trans  &kp BSLH   &pgup_dn      &home_end  &trans    &trans
+&trans  &trans  &trans  &lt 4 LANG2  &trans  &lt 3 LANGUAGE_1            &trans     &trans                                            &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -192,7 +192,7 @@
 &kp ESCAPE  &kp LC(LS(TAB))         &kp UP          &kp LC(TAB)              &trans                     &trans  &trans     &trans     &trans     &trans
 &kp HOME    &kp LEFT                &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans    &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans
 &trans      &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans    &trans  &trans  &trans     &trans     &trans     &trans
-&trans      &trans                  &trans          &trans                   &trans   &trans            &trans  &trans                                   &trans
+&trans      &trans                  &trans          &trans                   &kp TAB  &trans            &trans  &trans                                   &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
